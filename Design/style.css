@@ -1,0 +1,200 @@
+/* nav{
+    background-color: #fff;
+    height: 50px;
+} */
+
+/* nav li{
+    padding-left: 113.450px;
+} */
+/* 
+.sideicons{
+    display: flex;
+    align-items: center;
+}
+.second{
+    justify-content: space-evenly;
+}
+.Body{
+    background-color: rgb(252, 216, 236) !important;
+    padding-top: 50px !important;
+    min-height: 200px;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+}
+
+.second_nav { 
+    margin-left: auto;
+    margin-right: auto;
+    margin:0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 60px;
+} */
+
+/* Atelier GLow */
+#navb{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1030;
+    background-color: white;
+}
+
+.logo{
+    align-self: center;
+}
+
+.container-fluid{
+    padding: 0%;
+    padding-right: 10px;
+}
+#navb img{
+    background-color: white;
+    width: 70px;
+    align-items: center;
+    border-radius: 50%;
+}
+#navb nav{
+    background-color: black;
+}
+#navb .navbar-brand{
+    font-family: "Cookie", cursive;
+    font-size: xx-large;
+    margin: 0;
+}
+#navb ul{
+    font-family: "Bodoni Moda", serif;
+    font-size: large;
+}
+#navb .options{
+    background-color: black;
+}
+
+#navb nav .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    width: 100%;
+}
+.logo-text{
+    font-family: "Zalando Sans Expanded", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    /* font-style: normal; */
+    font-size: larger;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+.comp{
+    display: flex;
+    gap: 5rem;
+    flex-wrap:wrap-reverse;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+#myCarousel{
+    padding: 5px 0px;
+    margin-top:168px; 
+    height: 40px;    
+}
+.carousel-inner{
+    height: 40px;
+}
+.carousel-item{
+    min-height: 40px; 
+    background-color:rgb(0, 0, 0)
+}
+#myCarousel .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    height: 100%;
+}
+.myCarousel p{
+    color:rgb(73, 70, 67);
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media(max-width: 768px){
+    .options{
+        display:none;
+    }
+
+    #navbarCollapse{
+        padding-left: 20px;
+    }
+    
+    .navbar-toggler{
+        display: none;
+    }
+
+    .comp{
+        display: flex;
+        gap: 5rem;
+        flex-wrap:wrap-reverse;
+        list-style-type: none;
+        justify-content: space-evenly;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 10px 0;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+    
+    .comp li{
+        flex-shrink: 0;
+    }
+
+    #myCarousel{
+        margin-top: 80px;
+        display: block !important;
+        visibility: visible !important;
+        height: auto !important;
+    }
+    .carousel-item {
+        min-height: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #myCarousel .container{
+        padding: 10px;
+    }
+
+    #myCarousel p {
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
