@@ -99,15 +99,7 @@
     position: relative;
     align-items: center;
 }
-/* 
-#hero img{
-    margin-top: 140px; 
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-    mask-image: linear-gradient(to right, transparent 0%, black 20%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%);
-} */
+
 
 #hero .hero-text {
     position: absolute;
@@ -133,7 +125,6 @@
   padding: 5px 0;
 }
 
-/* Image container anchored top-right, image covers 50% width and keeps ratio */
 #hero .hero-image {
     position: absolute;
     top: 0;
@@ -147,23 +138,80 @@
     object-fit: cover;
     mask-image: linear-gradient(to right, transparent 0%, black 20%);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%);
-
 }
-/* 
-#hero .hero-image img {
-  width: 100%;
-  height: auto;  
-  display: block;
-} */
 
 #menu {
-    margin: 10px;
+    margin: 30px;
 }
 
-.row{
-    display: flex;
-    align-items: center; 
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;        
+  gap: 24px;               
+  justify-content: center;  
+  align-items: flex-start;
+  padding: 50px;
+  box-sizing: border-box;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;
+  width: 320px;        
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.card_img {
+  width: clamp(64px, 12vw, 120px); 
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+  font-family:  "Libre Baskerville", serif;
+  
+}
+
+.card p {
+  margin: 0;
+  color: #4a4a4a;
+  line-height: 1.5;
+  font-size: medium;
+}
+ 
+
+.cards .collection{
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn-brown {
+  background-color: #381903; 
+  color: #fff;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #dbae91;
+}
+
+.collection{
+    color: #1d0f06;
+}
+
 
 @media(max-width: 768px){
     .options{
