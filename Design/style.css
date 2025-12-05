@@ -189,7 +189,7 @@
 }
  
 
-.cards .collection{
+.cards .explore{
     width: 100%;
     font-family: "Playfair Display", serif;
     text-align: center;
@@ -211,6 +211,37 @@
 .collection{
     color: #1d0f06;
 }
+
+.gift-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color:  rgb(176, 139, 103);
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* background: linear-gradient(to right,
+        #c19a74 0%,     
+        #bb9068 60%,    
+        #b88460 100%    
+    );
+    padding: 10px; */
+}
+.gift-image{
+    display: block;
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+
+}
+
+.gift-text{
+    
+
+}
+
 
 
 @media(max-width: 768px){
