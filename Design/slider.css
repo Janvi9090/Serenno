@@ -52,7 +52,7 @@
     display: flex;
     gap: 10px;
     width:  calc((250px + 10px) * 32);   /* 16 slides × 2 = 32*/
-    animation: scroll 40s linear infinite;
+    animation: scroll 150s linear infinite;
 }
 
 /* Individual slide */
