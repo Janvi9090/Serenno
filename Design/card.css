@@ -1,0 +1,64 @@
+
+#explorei .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;        
+  gap: 24px;               
+  justify-content: center;  
+  align-items: flex-start;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#explorei .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;
+  width: 320px;        
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+#explorei .card_img {
+  width: clamp(64px, 12vw, 120px); 
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#explorei .card h1 {
+  margin: 0 0 8px 0;
+  font-family:  "Libre Baskerville", serif;
+  
+}
+
+#explorei .card p {
+  margin: 0;
+
+  color: #4a4a4a;
+  line-height: 1.5;
+  font-size: 18px;
+}
+ 
+
+#explorei .cards .explore{
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#explorei .btn-brown {
+  background-color: #381903; 
+  color: #fff;
+  border: none;
+}
+
+#explorei .btn-brown:hover {
+  background-color: #dbae91;
+}

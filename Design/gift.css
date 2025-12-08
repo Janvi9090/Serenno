@@ -1,0 +1,49 @@
+
+.gift-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  rgb(176, 139, 103);
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.gift-image {
+    order: 1;
+    min-width: 300px;            /* adjust as needed */
+    width: auto;
+    height: auto;
+    flex-shrink: 0;              /* prevent image from shrinking */
+    mask-image: linear-gradient(to left, transparent 0%, rgb(0, 0, 0) 20%);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 20%);
+}
+
+.gift-img-wrapper{
+    position: relative;
+    width: 400px; /* or auto */
+}
+
+.gift-text {
+    margin-left: 25%;
+    order: 2;
+    min-width: 250px; 
+    text-align: left;
+    
+    /* padding: 0 20px; */
+}
+
+#gift h1{
+    font-family: "Playfair Display", serif;
+    padding: 30px 0;
+    margin: 0 0 10px 0;
+    color: rgb(2, 2, 2);
+}
+#gift p{
+    margin: 0;
+    color: rgb(6, 6, 6);
+    padding: 5px 0;
+    font-size: 18px;
+}
